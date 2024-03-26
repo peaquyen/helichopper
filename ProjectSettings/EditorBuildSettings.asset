@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Flappy Bird.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/MainMenu.unity
+    guid: 746f658ad0aca8e4f859688c2e4d2556
+  - enabled: 1
+    path: Assets/Scenes/Helichopper.unity
+    guid: c7f03a831818c4fd78a01af80c1625a8
+  - enabled: 1
+    path: Assets/Scenes/PauseMenu.unity
+    guid: a60899f306c3de346a50f5d3b672fbbc
   m_configObjects: {}

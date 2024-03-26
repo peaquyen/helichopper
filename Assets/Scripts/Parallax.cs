@@ -3,7 +3,8 @@
 public class Parallax : MonoBehaviour
 {
     private MeshRenderer meshRenderer;
-    public float animationSpeed = 1f;
+    public float horizontalScrollSpeed = 0.05f; // Horizontal scroll speed
+    public float verticalScrollSpeed = 0f;   // Vertical scroll speed
 
     private void Awake()
     {
@@ -12,7 +13,10 @@ public class Parallax : MonoBehaviour
 
     private void Update()
     {
-        meshRenderer.material.mainTextureOffset += new Vector2(animationSpeed * Time.deltaTime, 0);
+        // Calculate the new offset for both horizontal and vertical scrolling
+        Vector2 offset = new Vector2(horizontalScrollSpeed * Time.deltaTime, verticalScrollSpeed * Time.deltaTime);
+        
+        // Update the mainTextureOffset
+        meshRenderer.material.mainTextureOffset += offset;
     }
-
 }

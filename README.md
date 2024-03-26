@@ -1,8 +1,8 @@
-# Flappy Bird (2D)
+# HELICHOPPER (2D)
 
-> Flappy Bird is a mobile game developed by Vietnamese video game artist and programmer Dong Nguyen. The game is a side-scroller where the player controls a bird, attempting to fly between columns of green pipes without hitting them.
+> Helichopper is an arcade-style game in which the player controls the Chopper character, whom navigating the helicopter, which moves persistently to the right. The player is tasked with navigating Helicopter through platforms with random heights and shapes.
 
 - **Topics**: Side Scrolling, Infinite Generation, Parallax
 - **Version**: Unity 2019.4 (LTS)
-- [**Download**](https://github.com/zigurous/unity-flappy-bird-tutorial/archive/refs/heads/main.zip)
-- [**Watch Video**](https://youtu.be/ihvBiJ1oC9U)
+- [**Download**](not available)
+- [**Watch Video**](not available)
